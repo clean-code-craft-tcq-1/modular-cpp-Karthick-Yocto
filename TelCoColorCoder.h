@@ -1,6 +1,8 @@
 #include<iostream>
 #include<string>
 using namespace std;
+void testNumberToPair(int pairNumber,TelCoColorCoder::MajorColor expectedMajor,TelCoColorCoder::MinorColor expectedMinor);
+void testPairToNumber(TelCoColorCoder::MajorColor major,TelCoColorCoder::MinorColor minor,int expectedPairNumber);
 namespace TelCoColorCoder
 {
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -17,7 +19,6 @@ class ColorPair {
             MinorColor getMinor();
             std::string ToString();
 			ColorPair GetColorFromPairNumber(int pairNumber);
-			void testNumberToPair(int pairNumber,TelCoColorCoder::MajorColor expectedMajor,TelCoColorCoder::MinorColor expectedMinor);
-			void testPairToNumber(TelCoColorCoder::MajorColor major,TelCoColorCoder::MinorColor minor,int expectedPairNumber);
+			
     };
 }
