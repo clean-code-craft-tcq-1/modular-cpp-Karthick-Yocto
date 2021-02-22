@@ -1,4 +1,5 @@
 #include "TelCoColorCoder.h"
+using namespace TelCoColorCoder;
 
 int main() {
     ColorPair  obj;
