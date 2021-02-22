@@ -13,7 +13,7 @@ using namespace TelCoColorCoder;
     int numberOfMinorColors =
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-
+ColorPair::ColorPair(){}
 
 ColorPair::ColorPair(MajorColor major, MinorColor minor):
                 majorColor(major), minorColor(minor)
