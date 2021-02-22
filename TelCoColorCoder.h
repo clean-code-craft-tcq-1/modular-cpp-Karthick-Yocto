@@ -13,6 +13,7 @@ class ColorPair {
             MajorColor majorColor;
             MinorColor minorColor;
         public:
+	    ColorPair();
             ColorPair(MajorColor major, MinorColor minor);
             MajorColor getMajor();
             MinorColor getMinor();
