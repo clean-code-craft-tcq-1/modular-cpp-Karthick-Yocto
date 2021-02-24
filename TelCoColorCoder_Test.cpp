@@ -21,7 +21,7 @@ void printPairColorCode()
 	for (int pairNumber = 1 ; pairNumber <= totalColorPairCount ; ++ pairNumber )
 	{
 		TelCoColorCoder::ColorPair colorPair = TelCoColorCoder::GetColorFromPairNumber(pairNumber);
-		std::cout <<std::setw(6)<< pairNumber << " \t   | \t "<< colorPair.ToString() << std::endl ;
+		std::cout<< pairNumber << " \t   | \t "<< colorPair.ToString() << std::endl ;
 	}
 }
 
