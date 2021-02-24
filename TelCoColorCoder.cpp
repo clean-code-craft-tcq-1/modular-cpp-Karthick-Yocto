@@ -5,8 +5,8 @@ using namespace TelCoColorCoder;
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
-int numberOfMajorColors =sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-int numberOfMinorColors =sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+numberOfMajorColors =sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+numberOfMinorColors =sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 ColorPair::ColorPair(MajorColor major, MinorColor minor) :
 	majorColor(major), minorColor(minor)
