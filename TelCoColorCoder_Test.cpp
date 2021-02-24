@@ -1,4 +1,4 @@
-#include "TelcoColorCoder.h"
+#include "TelCoColorCoder.h"
 #include<assert.h>
 
 void testNumberToPair(int pairNumber,
