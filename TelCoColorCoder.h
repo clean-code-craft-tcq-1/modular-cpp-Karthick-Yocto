@@ -9,8 +9,8 @@ namespace TelCoColorCoder
 	enum MajorColor { WHITE, RED, BLACK, YELLOW, VIOLET };
 	enum MinorColor { BLUE, ORANGE, GREEN, BROWN, SLATE };
 
-	int numberOfMajorColors;
-	 int numberOfMinorColors; 
+	extern int numberOfMajorColors;
+	 extern int numberOfMinorColors; 
 	
 
 
