@@ -15,7 +15,7 @@ void testPairToNumber(TelCoColorCoder::MajorColor major,TelCoColorCoder::MinorCo
 	std::cout << "Got pair number " << pairNumber << std::endl;
 	assert(pairNumber == expectedPairNumber);
 }
-void printPairColorCode()
+void printColorCodePair()
 {
 	int totalColorPairCount = TelCoColorCoder::numberOfMajorColors * TelCoColorCoder::numberOfMinorColors;
 	for (int pairNumber = 1 ; pairNumber <= totalColorPairCount ; ++ pairNumber )
@@ -32,5 +32,6 @@ int main() {
 	testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
 	testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
+	printColorCodePair();
 	return 0;
 }
