@@ -1,3 +1,12 @@
+/*****************************************************************************************************
+Version History
+******************************************************************************************************
+Revision Number:			User Name:Karthick			Date:24-02-2021
+---------------				----------------				--------
+$file	: 	TelcoColrCoder.h			      
+$brief	:       Contains skeleton of TelcoColorCoder project and utility functions				      
+
+******************************************************************************************************/
 #ifndef TELCOCOLORCODER
 #define TELCOCOLORCODER
 
@@ -10,8 +19,7 @@ namespace TelCoColorCoder
 	enum MinorColor { BLUE, ORANGE, GREEN, BROWN, SLATE };
 
 	extern int numberOfMajorColors;
-	 extern int numberOfMinorColors; 
-	
+	extern int numberOfMinorColors; 
 
 
 	class ColorPair {
@@ -28,4 +36,4 @@ namespace TelCoColorCoder
 	ColorPair GetColorFromPairNumber(int pairNumber);
 	int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 }
-#endif
+#endif /*End of TELCOCOLORCODER */
